@@ -1,1 +1,1 @@
-serve -s build
+npm run serve
