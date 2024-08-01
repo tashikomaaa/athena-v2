@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "dotenv -e .env.development react-scripts start",
 		"build": "dotenv -e .env.production react-scripts build",
-		"serve": "serve -s build",
+		"serve": "serve -l 6001 -s build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"lint": "eslint .",
